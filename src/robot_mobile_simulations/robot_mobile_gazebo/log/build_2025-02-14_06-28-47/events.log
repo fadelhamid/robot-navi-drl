@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (robot_mobile_gazebo) JobQueued: {'identifier': 'robot_mobile_gazebo', 'dependencies': OrderedDict()}
+[0.000399] (robot_mobile_gazebo) JobStarted: {'identifier': 'robot_mobile_gazebo'}
+[0.006491] (robot_mobile_gazebo) JobProgress: {'identifier': 'robot_mobile_gazebo', 'progress': 'cmake'}
+[0.006838] (robot_mobile_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo'], 'cwd': '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/fadel/.gz/models'), ('USER', 'fadel'), ('ROS_PACKAGE_PATH', ':/opt/ros/humble/share:/home/fadel/mobile_robot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/'), ('HOME', '/home/fadel'), ('OLDPWD', '/home/fadel/mobile_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1125092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PX4_GZ_MODEL_POSE', '-80.43,696,4.53,0.00,0,1.3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fadel'), ('DRLNAV_BASE_PATH', '/home/fadel/mobile_robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fadel'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fadel/.local/bin:/home/fadel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fadel-Dell-G15-5510:@/tmp/.ICE-unix/2261,unix/fadel-Dell-G15-5510:/tmp/.ICE-unix/2261'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3803827_a906_4d5e_a1f5_459953f61bc8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3966'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('FASTRTPS_DEFAULT_PROFILES', '/home/fadel/.ros/FASTRTPS_DEFAULT_PROFILES.xml'), ('RCL_LOG_LEVEL', 'DEBUG'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib/'), ('TREE_MOBILE_MODEL', 'tree_mobile'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.049446] (robot_mobile_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.092351] (robot_mobile_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.097933] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099817] (-) TimerEvent: {}
+[0.148426] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.155008] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.155260] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.155562] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.158036] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199912] (-) TimerEvent: {}
+[0.217482] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.224164] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.224337] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.224638] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.226500] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299987] (-) TimerEvent: {}
+[0.342783] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400067] (-) TimerEvent: {}
+[0.409412] (robot_mobile_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.409523] (robot_mobile_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.409574] (robot_mobile_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.409618] (robot_mobile_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.409659] (robot_mobile_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.409700] (robot_mobile_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.409740] (robot_mobile_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.409811] (robot_mobile_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.409870] (robot_mobile_gazebo) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[0.409910] (robot_mobile_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.409954] (robot_mobile_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.409993] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.412763] (robot_mobile_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.419707] (robot_mobile_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.483691] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.500139] (-) TimerEvent: {}
+[0.511766] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.523762] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.600233] (-) TimerEvent: {}
+[0.656063] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.674113] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.678873] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.684793] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.686050] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.686460] (robot_mobile_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.690163] (robot_mobile_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.697581] (robot_mobile_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.700289] (-) TimerEvent: {}
+[0.715917] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.723388] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.730607] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.734522] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.734602] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.738233] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.738308] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.741839] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.741914] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.745581] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.745656] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.749198] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.749274] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.752750] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.800396] (-) TimerEvent: {}
+[0.835153] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.836687] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.837066] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.850308] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.858377] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.862287] (robot_mobile_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.870393] (robot_mobile_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.891314] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[0.894955] (robot_mobile_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.900461] (-) TimerEvent: {}
+[0.902339] (robot_mobile_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.921356] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.922979] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.923324] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.937082] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.940217] (robot_mobile_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.948123] (robot_mobile_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.968821] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.970426] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.970737] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.970925] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.971501] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.972532] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[0.980084] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[0.980450] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.981884] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.982240] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.982500] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.984365] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.984649] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.000560] (-) TimerEvent: {}
+[1.031380] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.036923] (robot_mobile_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.044393] (robot_mobile_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.063716] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.068647] (robot_mobile_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.077034] (robot_mobile_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.097134] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.097453] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.097689] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.098126] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.100658] (-) TimerEvent: {}
+[1.101509] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[1.102938] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.125447] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.129421] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.135579] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.145033] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.157910] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.189437] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.200758] (-) TimerEvent: {}
+[1.203400] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.231792] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.233717] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.295268] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.300840] (-) TimerEvent: {}
+[1.313338] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.345673] (robot_mobile_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.352502] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.383207] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.397684] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.400907] (-) TimerEvent: {}
+[1.453442] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.461668] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.465257] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo\n'}
+[1.475400] (robot_mobile_gazebo) CommandEnded: {'returncode': 0}
+[1.475890] (robot_mobile_gazebo) JobProgress: {'identifier': 'robot_mobile_gazebo', 'progress': 'build'}
+[1.476065] (robot_mobile_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo', '--', '-j16', '-l16'], 'cwd': '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/fadel/.gz/models'), ('USER', 'fadel'), ('ROS_PACKAGE_PATH', ':/opt/ros/humble/share:/home/fadel/mobile_robot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/'), ('HOME', '/home/fadel'), ('OLDPWD', '/home/fadel/mobile_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1125092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PX4_GZ_MODEL_POSE', '-80.43,696,4.53,0.00,0,1.3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fadel'), ('DRLNAV_BASE_PATH', '/home/fadel/mobile_robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fadel'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fadel/.local/bin:/home/fadel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fadel-Dell-G15-5510:@/tmp/.ICE-unix/2261,unix/fadel-Dell-G15-5510:/tmp/.ICE-unix/2261'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3803827_a906_4d5e_a1f5_459953f61bc8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3966'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('FASTRTPS_DEFAULT_PROFILES', '/home/fadel/.ros/FASTRTPS_DEFAULT_PROFILES.xml'), ('RCL_LOG_LEVEL', 'DEBUG'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib/'), ('TREE_MOBILE_MODEL', 'tree_mobile'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.501022] (-) TimerEvent: {}
+[1.509037] (robot_mobile_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tree_mobile_drive.dir/src/tree_mobile_drive.cpp.o\x1b[0m\n'}
+[1.601091] (-) TimerEvent: {}
+[1.701306] (-) TimerEvent: {}
+[1.801534] (-) TimerEvent: {}
+[1.901771] (-) TimerEvent: {}
+[2.001967] (-) TimerEvent: {}
+[2.102183] (-) TimerEvent: {}
+[2.202635] (-) TimerEvent: {}
+[2.302887] (-) TimerEvent: {}
+[2.403087] (-) TimerEvent: {}
+[2.503282] (-) TimerEvent: {}
+[2.603509] (-) TimerEvent: {}
+[2.703798] (-) TimerEvent: {}
+[2.804003] (-) TimerEvent: {}
+[2.904246] (-) TimerEvent: {}
+[3.004487] (-) TimerEvent: {}
+[3.104728] (-) TimerEvent: {}
+[3.204955] (-) TimerEvent: {}
+[3.305206] (-) TimerEvent: {}
+[3.405481] (-) TimerEvent: {}
+[3.505711] (-) TimerEvent: {}
+[3.605988] (-) TimerEvent: {}
+[3.706209] (-) TimerEvent: {}
+[3.806404] (-) TimerEvent: {}
+[3.906648] (-) TimerEvent: {}
+[4.007002] (-) TimerEvent: {}
+[4.107201] (-) TimerEvent: {}
+[4.207430] (-) TimerEvent: {}
+[4.307688] (-) TimerEvent: {}
+[4.408007] (-) TimerEvent: {}
+[4.508202] (-) TimerEvent: {}
+[4.608401] (-) TimerEvent: {}
+[4.708720] (-) TimerEvent: {}
+[4.808963] (-) TimerEvent: {}
+[4.909156] (-) TimerEvent: {}
+[5.009387] (-) TimerEvent: {}
+[5.109618] (-) TimerEvent: {}
+[5.209867] (-) TimerEvent: {}
+[5.310087] (-) TimerEvent: {}
+[5.410288] (-) TimerEvent: {}
+[5.510514] (-) TimerEvent: {}
+[5.610783] (-) TimerEvent: {}
+[5.711014] (-) TimerEvent: {}
+[5.811249] (-) TimerEvent: {}
+[5.911532] (-) TimerEvent: {}
+[6.011805] (-) TimerEvent: {}
+[6.112013] (-) TimerEvent: {}
+[6.212213] (-) TimerEvent: {}
+[6.312449] (-) TimerEvent: {}
+[6.412709] (-) TimerEvent: {}
+[6.512981] (-) TimerEvent: {}
+[6.613310] (-) TimerEvent: {}
+[6.713594] (-) TimerEvent: {}
+[6.813905] (-) TimerEvent: {}
+[6.914171] (-) TimerEvent: {}
+[7.014447] (-) TimerEvent: {}
+[7.114792] (-) TimerEvent: {}
+[7.215117] (-) TimerEvent: {}
+[7.315346] (-) TimerEvent: {}
+[7.415607] (-) TimerEvent: {}
+[7.515860] (-) TimerEvent: {}
+[7.616097] (-) TimerEvent: {}
+[7.716512] (-) TimerEvent: {}
+[7.841245] (-) TimerEvent: {}
+[7.941512] (-) TimerEvent: {}
+[8.041764] (-) TimerEvent: {}
+[8.142031] (-) TimerEvent: {}
+[8.242220] (-) TimerEvent: {}
+[8.342442] (-) TimerEvent: {}
+[8.442682] (-) TimerEvent: {}
+[8.542848] (-) TimerEvent: {}
+[8.643105] (-) TimerEvent: {}
+[8.743356] (-) TimerEvent: {}
+[8.843580] (-) TimerEvent: {}
+[8.943813] (-) TimerEvent: {}
+[9.044063] (-) TimerEvent: {}
+[9.144319] (-) TimerEvent: {}
+[9.244585] (-) TimerEvent: {}
+[9.344861] (-) TimerEvent: {}
+[9.445061] (-) TimerEvent: {}
+[9.545353] (-) TimerEvent: {}
+[9.645588] (-) TimerEvent: {}
+[9.745835] (-) TimerEvent: {}
+[9.846066] (-) TimerEvent: {}
+[9.946307] (-) TimerEvent: {}
+[10.046575] (-) TimerEvent: {}
+[10.146884] (-) TimerEvent: {}
+[10.221466] (robot_mobile_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tree_mobile_drive\x1b[0m\n'}
+[10.246993] (-) TimerEvent: {}
+[10.347234] (-) TimerEvent: {}
+[10.447435] (-) TimerEvent: {}
+[10.547747] (-) TimerEvent: {}
+[10.604800] (robot_mobile_gazebo) StdoutLine: {'line': b'[100%] Built target tree_mobile_drive\n'}
+[10.617089] (robot_mobile_gazebo) CommandEnded: {'returncode': 0}
+[10.617496] (robot_mobile_gazebo) JobProgress: {'identifier': 'robot_mobile_gazebo', 'progress': 'install'}
+[10.623154] (robot_mobile_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo'], 'cwd': '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/fadel/.gz/models'), ('USER', 'fadel'), ('ROS_PACKAGE_PATH', ':/opt/ros/humble/share:/home/fadel/mobile_robot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/lib/'), ('HOME', '/home/fadel'), ('OLDPWD', '/home/fadel/mobile_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1125092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PX4_GZ_MODEL_POSE', '-80.43,696,4.53,0.00,0,1.3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fadel'), ('DRLNAV_BASE_PATH', '/home/fadel/mobile_robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fadel'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fadel/.local/bin:/home/fadel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fadel-Dell-G15-5510:@/tmp/.ICE-unix/2261,unix/fadel-Dell-G15-5510:/tmp/.ICE-unix/2261'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3803827_a906_4d5e_a1f5_459953f61bc8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3966'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('FASTRTPS_DEFAULT_PROFILES', '/home/fadel/.ros/FASTRTPS_DEFAULT_PROFILES.xml'), ('RCL_LOG_LEVEL', 'DEBUG'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/build/robot_mobile_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib/'), ('TREE_MOBILE_MODEL', 'tree_mobile'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.628679] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.628949] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/lib/robot_mobile_gazebo/tree_mobile_drive\n'}
+[10.631773] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/lib/robot_mobile_gazebo/tree_mobile_drive" to ""\n'}
+[10.632009] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//launch\n'}
+[10.632172] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//launch/ros2_drl.launch.py\n'}
+[10.632249] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//launch/robot_state_publisher.launch.py\n'}
+[10.632332] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//rviz\n'}
+[10.632391] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models\n'}
+[10.632439] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle10\n'}
+[10.632504] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle10/model.config\n'}
+[10.632552] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle10/model.sdf\n'}
+[10.632599] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle5\n'}
+[10.632646] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle5/model.config\n'}
+[10.632714] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle5/model.sdf\n'}
+[10.632757] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile\n'}
+[10.632850] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/meshes\n'}
+[10.632899] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/meshes/Rueda_izquierda_link.STL\n'}
+[10.633354] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/meshes/structure.stl\n'}
+[10.634452] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/meshes/Base_castor_link.STL\n'}
+[10.634633] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/meshes/base_link.STL\n'}
+[10.635952] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/meshes/Rueda_derecha_link.STL\n'}
+[10.636636] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/meshes/Rueda_castor_link.STL\n'}
+[10.636888] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/meshes/lds.stl\n'}
+[10.637309] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/model.config\n'}
+[10.637369] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/tree_mobile/tree_mobile.urdf\n'}
+[10.637429] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle8\n'}
+[10.637489] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle8/model.config\n'}
+[10.637550] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle8/model.sdf\n'}
+[10.637604] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle2\n'}
+[10.637662] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle2/model.config\n'}
+[10.637721] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle2/model.sdf\n'}
+[10.637828] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle1\n'}
+[10.637923] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle1/model.config\n'}
+[10.637987] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle1/model.sdf\n'}
+[10.638034] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle7\n'}
+[10.638098] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle7/model.config\n'}
+[10.638148] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle7/model.sdf\n'}
+[10.638208] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle6\n'}
+[10.638266] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle6/model.config\n'}
+[10.638312] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle6/model.sdf\n'}
+[10.638377] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle4\n'}
+[10.638421] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle4/model.config\n'}
+[10.638465] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle4/model.sdf\n'}
+[10.638530] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle9\n'}
+[10.638574] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle9/model.config\n'}
+[10.638618] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle9/model.sdf\n'}
+[10.638684] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle3\n'}
+[10.638727] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle3/model.config\n'}
+[10.638795] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/obstacle3/model.sdf\n'}
+[10.638872] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/10by10\n'}
+[10.638918] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/10by10/model.config\n'}
+[10.638985] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//models/10by10/model.sdf\n'}
+[10.639031] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//worlds\n'}
+[10.639076] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//worlds/drl\n'}
+[10.639134] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//worlds/drl/world.world\n'}
+[10.639180] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//worlds/world_1.world\n'}
+[10.639244] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo//worlds/world_treewheels.world\n'}
+[10.639291] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/include/\n'}
+[10.639357] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/include//robot_mobile_gazebo\n'}
+[10.639400] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/include//robot_mobile_gazebo/tree_mobile_drive.hpp\n'}
+[10.639475] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/ament_index/resource_index/package_run_dependencies/robot_mobile_gazebo\n'}
+[10.639588] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/ament_index/resource_index/parent_prefix_path/robot_mobile_gazebo\n'}
+[10.639693] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/environment/ament_prefix_path.sh\n'}
+[10.639797] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/environment/ament_prefix_path.dsv\n'}
+[10.639899] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/environment/path.sh\n'}
+[10.639976] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/environment/path.dsv\n'}
+[10.640057] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/local_setup.bash\n'}
+[10.640134] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/local_setup.sh\n'}
+[10.640216] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/local_setup.zsh\n'}
+[10.640293] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/local_setup.dsv\n'}
+[10.640374] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/package.dsv\n'}
+[10.640477] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/ament_index/resource_index/packages/robot_mobile_gazebo\n'}
+[10.640576] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.640657] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.640740] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/cmake/robot_mobile_gazeboConfig.cmake\n'}
+[10.640842] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/cmake/robot_mobile_gazeboConfig-version.cmake\n'}
+[10.640922] (robot_mobile_gazebo) StdoutLine: {'line': b'-- Installing: /home/fadel/mobile_robot/src/robot_mobile_simulations/robot_mobile_gazebo/install/robot_mobile_gazebo/share/robot_mobile_gazebo/package.xml\n'}
+[10.642203] (robot_mobile_gazebo) CommandEnded: {'returncode': 0}
+[10.647886] (-) TimerEvent: {}
+[10.655274] (robot_mobile_gazebo) JobEnded: {'identifier': 'robot_mobile_gazebo', 'rc': 0}
+[10.655895] (-) EventReactorShutdown: {}
